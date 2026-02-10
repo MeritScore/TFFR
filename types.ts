@@ -64,6 +64,16 @@ export interface User {
   meritScore: number;
   avatarUrl: string;
   isVerified?: boolean;
+  scoreColor?: string;
+  role?: string;
+  about?: string;
+  skills?: string[];
+  behavioralStats?: {
+    consistency: number;
+    complexity: string; // "HIGH", "MED", "LOW"
+    velocity: number;
+    collateral: number;
+  };
 }
 
 export interface Message {
