@@ -6,12 +6,21 @@
 
 This contains everything you need to run your app locally.
 
-View your app in AI Studio: https://ai.studio/apps/drive/1Lfi2ctPL1mIwD7NrvLiTtoy7YWF3gzgt
+View your app in AI Studio: <https://ai.studio/apps/drive/1Lfi2ctPL1mIwD7NrvLiTtoy7YWF3gzgt>
+
+## Deployment
+
+The application is deployed to Google Cloud Run and can be accessed via the following links:
+
+* **Custom Domain**: [https://thefunfanreporter.com/](https://thefunfanreporter.com/)
+* **Official Cloud Run URL**: [https://merit-score-223594773840.us-central1.run.app/](https://merit-score-223594773840.us-central1.run.app/)
+
+> [!IMPORTANT]
+> Do not append `:8080` to the URLs above. Port 8080 is internal to the container and not exposed for external traffic.
 
 ## Run Locally
 
 **Prerequisites:**  Node.js
-
 
 1. Install dependencies:
    `npm install`

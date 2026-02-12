@@ -8,7 +8,7 @@ import {
    RefreshCcw, RotateCw, ToggleLeft, ToggleRight, Undo2, Lock, Bomb, Copy, Save, ChevronDown, AlertTriangle, Play, Send,
    AlertOctagon, Scale, Headset, BarChart2, Briefcase, Eye, Link
 } from 'lucide-react';
-import { CyberButton, CyberCard, SectionHeader, CyberBadge, MeritScoreLogo } from '../ui/CyberComponents';
+import { CyberButton, CyberCard, SectionHeader, CyberBadge, IsotypeTheFunFanReporter } from '../ui/CyberComponents';
 import { Screen } from '../../types';
 
 interface Props {
@@ -586,7 +586,7 @@ export const AdminCommand: React.FC<Props> = ({ adminId, onNavigate }) => {
                   <p className="text-gray-500">{'>'} SYSTEM DIAGNOSTICS STARTED...</p>
                   <p>{'>'} SCANNING TRAFFIC PATTERNS...</p>
                   <p>{'>'} DETECTED 2 BOT SIGNATURES [BLOCKED]</p>
-                  <p>{'>'} VERIFYING MERIT SCORE HANDSHAKES... OK</p>
+                  <p>{'>'} VERIFYING THE FUN FAN REPORTER HANDSHAKES... OK</p>
                   <p>{'>'} CLOUD ARMOR: ACTIVE</p>
                   <p>{'>'} UNIVERSAL LOGIN: SECURE</p>
                </div>
@@ -772,7 +772,7 @@ export const AdminCommand: React.FC<Props> = ({ adminId, onNavigate }) => {
                </div>
             </div>
 
-            {/* Merit Score */}
+            {/* The Fun Fan Reporter */}
             <div className="bg-purple-900/10 border border-purple-500/30 rounded-xl p-3 relative group hover:bg-purple-900/20 transition-all cursor-pointer">
                {/* Agents: Archy, Hacky */}
                <div className="absolute top-2 right-2 flex gap-1">
@@ -781,7 +781,7 @@ export const AdminCommand: React.FC<Props> = ({ adminId, onNavigate }) => {
                </div>
                <div className="flex items-center gap-2 mb-2">
                   <div className="p-1.5 bg-purple-500/20 rounded text-purple-500"><Award size={16} /></div>
-                  <span className="text-[10px] font-orbitron font-bold text-white leading-none">MERIT<br />SCORE</span>
+                  <span className="text-[10px] font-orbitron font-bold text-white leading-none">THE FUN<br />FAN REPORTER</span>
                </div>
                <div className="flex items-end justify-between">
                   <div>

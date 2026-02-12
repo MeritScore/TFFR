@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { CyberButton, MeritScoreLogo } from '../ui/CyberComponents';
+import { CyberButton, IsotypeTheFunFanReporter } from '../ui/CyberComponents';
 import { X, Facebook, Instagram } from 'lucide-react';
 
 interface Props {
@@ -52,7 +52,7 @@ export const LoginScreen: React.FC<Props> = ({ onBack, onSwitchToSignup, onLogin
         <div className="text-center space-y-2 mb-8">
           <div className="flex justify-center mb-1">
             <div className="w-12 h-12">
-              <MeritScoreLogo color="#39ff14" noGlow={true} />
+              <IsotypeTheFunFanReporter color="#39ff14" noGlow={true} />
             </div>
           </div>
           <h1 className="text-3xl font-orbitron font-black text-white uppercase tracking-tight drop-shadow-lg">
@@ -141,7 +141,7 @@ export const LoginScreen: React.FC<Props> = ({ onBack, onSwitchToSignup, onLogin
         {/* Footer Link */}
         <div className="text-center">
           <p className="text-gray-300 font-sans text-sm">
-            New to MERIT SCORE? {' '}
+            New to THE FUN FAN REPORTER? {' '}
             <button
               onClick={onSwitchToSignup}
               className="text-cyber-purple font-black hover:underline underline-offset-4"

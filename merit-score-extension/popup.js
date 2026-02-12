@@ -119,7 +119,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     resultBox.innerHTML = `
                         <div style="font-size:40px; color:#39ff14; font-weight:bold; margin:10px 0;">${mockScore}</div>
                         <div style="color:#00ffff">ACCESS GRANTED</div>
-                        <div style="font-size:12px; color:#888">Merit Score for ${formattedTarget}</div>
+                        <div style="font-size:12px; color:#888">TFFR Level for ${formattedTarget}</div>
                     `;
                 } else {
                     // CHECK IF PENDING

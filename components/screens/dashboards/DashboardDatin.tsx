@@ -1015,7 +1015,7 @@ export const DashboardDatin: React.FC<Props> = ({ onNavigate, onBack }) => {
                </div>
                <div className="h-16 bg-[#050505] rounded border border-white/10 p-2 overflow-hidden relative group cursor-text">
                   <p className="text-[9px] text-gray-500 font-mono leading-relaxed">
-                     You are DATIN, the AI Broker for MERIT SCORE. Your goal is to maximize gig economy transactions. Always check Merit Scores before suggesting trades...
+                     You are DATIN, the AI Broker for THE FUN FAN REPORTER. Your goal is to maximize gig economy transactions. Always check The Fun Fan Reporter levels before suggesting trades...
                   </p>
                </div>
             </div>

@@ -6,7 +6,7 @@ import { VitePWA } from 'vite-plugin-pwa';
 export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, '.', '');
   return {
-    base: '/merit-score/',
+    base: '/',
     server: {
       port: 3000,
       host: '0.0.0.0',
@@ -17,7 +17,7 @@ export default defineConfig(({ mode }) => {
         registerType: 'autoUpdate',
         includeAssets: ['favicon.ico', 'apple-touch-icon.png', 'masked-icon.svg'],
         manifest: {
-          name: 'MERIT SCORE',
+          name: 'THE FUN FAN REPORTER',
           short_name: 'MeritScore',
           description: 'High-fidelity reputation and impact tracking system.',
           theme_color: '#050505',

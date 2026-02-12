@@ -14,7 +14,7 @@ export const Layout = ({ children, currentScreen, userRole, roleLabel, onNavigat
     ? [
       { id: Screen.ADMIN_TEAM_CHAT, label: 'TEAM CHAT', icon: Users },
       { id: Screen.ADMIN_DASH, label: 'COMMAND', icon: Grid },
-      { id: Screen.FEED, label: 'MERIT SCORE CHAT', icon: MessageSquare }, // Public Feed Access
+      { id: Screen.FEED, label: 'THE FUN FAN REPORTER CHAT', icon: MessageSquare }, // Public Feed Access
     ]
     : [
       { id: Screen.FEED, label: 'CHAT', icon: MessageSquare },
@@ -37,8 +37,12 @@ export const Layout = ({ children, currentScreen, userRole, roleLabel, onNavigat
             <div className="w-1.5 h-8 bg-cyber-green skew-x-12 shadow-[0_0_10px_#39ff14]"></div>
 
             <div className="flex flex-row items-baseline gap-2">
-              <span className="font-orbitron font-bold text-xl text-cyber-green tracking-widest leading-none drop-shadow-[0_0_8px_rgba(57,255,20,0.6)]">MERIT</span>
-              <span className="font-orbitron font-bold text-xl text-cyber-cyan tracking-widest leading-none drop-shadow-[0_0_8px_rgba(0,255,255,0.6)]">SCORE</span>
+              <span className="font-orbitron font-bold text-sm tracking-[0.2em] leading-none pointer-events-none">
+                <span className="text-white">THE </span>
+                <span className="text-cyber-green drop-shadow-[0_0_15px_rgba(57,255,20,0.6)]">FUN </span>
+                <span className="text-white">FAN </span>
+                <span className="text-cyber-green drop-shadow-[0_0_15px_rgba(57,255,20,0.6)]">REPORTER</span>
+              </span>
             </div>
           </div>
 

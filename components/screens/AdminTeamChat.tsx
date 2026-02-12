@@ -1,6 +1,6 @@
 import React from 'react';
 import { Search, Bell, MessageSquare, Mic, Edit3, Hash } from 'lucide-react';
-import { MeritScoreLogo } from '../ui/CyberComponents';
+import { IsotypeTheFunFanReporter } from '../ui/CyberComponents';
 
 export const AdminTeamChat = () => {
   return (
@@ -12,7 +12,7 @@ export const AdminTeamChat = () => {
           <span className="text-gray-500 text-sm font-sans">Jump to or search...</span>
         </div>
         <div className="w-8 h-8 rounded-full bg-cyber-purple/20 flex items-center justify-center border border-cyber-purple/50 relative">
-          <MeritScoreLogo color="#d000ff" noGlow className="w-5 h-5" />
+          <IsotypeTheFunFanReporter color="#d000ff" noGlow className="w-5 h-5" />
           <div className="absolute bottom-0 right-0 w-2.5 h-2.5 bg-green-500 border-2 border-[#1a1a1d] rounded-full"></div>
         </div>
       </div>

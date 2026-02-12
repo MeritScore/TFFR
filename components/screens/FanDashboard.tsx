@@ -62,7 +62,7 @@ export const FanDashboard: React.FC<Props> = ({ userProfile }) => {
     ...INITIAL_MESSAGES,
     {
       id: 'msg-demo-all-buttons',
-      text: 'Need 3 people to help unload equipment at the VIP Backstage entrance. Must have credentials or high Merit Score. Bidding open.',
+      text: 'Need 3 people to help unload equipment at the VIP Backstage entrance. Must have credentials or high Merit Score level. Bidding open.',
       sender: { id: 'u5', username: 'CryptoKing', meritScore: 120, avatarUrl: 'https://picsum.photos/205/205' },
       timestamp: new Date(),
       type: MessageType.GIG_OFFER,

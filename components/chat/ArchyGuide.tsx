@@ -15,7 +15,7 @@ const ARCHY_USER: User = {
 const INITIAL_ARCHY_MESSAGES: Message[] = [
     {
         id: 'archy-1',
-        text: "Hello! I am Archy, your Gemini 3 AI Guide. I'm here to help you navigate the Merit Score platform and understand how reputation works in this ecosystem. What would you like to know?",
+        text: "Hello! I am Archy, your Gemini 3 AI Guide. I'm here to help you navigate The Fun Fan Reporter platform and understand how reputation works in this ecosystem. What would you like to know?",
         sender: ARCHY_USER,
         timestamp: new Date(),
         type: MessageType.CHAT
@@ -55,8 +55,8 @@ export const ArchyGuide: React.FC = () => {
             let archyResponse = "I'm processing your request via the Gemini 3 neural net...";
             const query = userMsg.text.toLowerCase();
 
-            if (query.includes('merit score') || query.includes('reputation')) {
-                archyResponse = "The Merit Score (MS) is your behavioral collateral. It's calculated based on three vectors: Consistency (reliability), Complexity (skill level), and Velocity (speed). High scores unlock VIP channels and better Gig rates.";
+            if (query.includes('the fun fan reporter') || query.includes('reputation')) {
+                archyResponse = "The Merit Score status is your behavioral collateral. It's calculated based on three vectors: Consistency (reliability), Complexity (skill level), and Velocity (speed). High levels unlock VIP channels and better Gig rates.";
             } else if (query.includes('gig') || query.includes('work')) {
                 archyResponse = "Gigs are tasks offered by other users or the system. You can bid on them or claim them directly if your Merit Score meets the requirements. Successful Gigs increase your score!";
             } else if (query.includes('vip')) {
@@ -64,7 +64,7 @@ export const ArchyGuide: React.FC = () => {
             } else if (query.includes('benito')) {
                 archyResponse = "Benito Martínez is a high-profile participant currently unverified. His low score makes him a 'Liquid Trader'—high risk, but often involved in unique market movements.";
             } else if (query.includes('marilyn')) {
-                archyResponse = "Marilyn Alvarado is an Elite Fan Advisor with a near-perfect Merit Score. She is a trusted node in the platform's social graph.";
+                archyResponse = "Marilyn Alvarado is an Elite & Verified Member with a near-perfect reputation level. She is a trusted node in the platform's social graph.";
             } else {
                 archyResponse = "Interesting question. As a Gemini 3 entity, I see that you're exploring the nuances of our platform. You can check your Merit dashboard, trade in the Global Feed, or join specialized channels to learn more.";
             }
@@ -125,8 +125,8 @@ export const ArchyGuide: React.FC = () => {
                             return (
                                 <div key={msg.id} className={`flex ${isArchy ? 'justify-start' : 'justify-end'}`}>
                                     <div className={`max-w-[85%] p-3 rounded-xl text-xs font-sans leading-relaxed shadow-sm ${isArchy
-                                            ? 'bg-white/5 border border-white/10 text-gray-200 rounded-tl-none'
-                                            : 'bg-[#d000ff] text-white rounded-tr-none font-bold'
+                                        ? 'bg-white/5 border border-white/10 text-gray-200 rounded-tl-none'
+                                        : 'bg-[#d000ff] text-white rounded-tr-none font-bold'
                                         }`}>
                                         {msg.text}
                                     </div>

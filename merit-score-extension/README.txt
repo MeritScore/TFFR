@@ -1,1 +1,1 @@
-Merit Score Extension Assets
+The Fun Fan Reporter Extension Assets
